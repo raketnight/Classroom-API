@@ -90,7 +90,7 @@ public class classroomDb implements IClassroom{
             traineeFromDB = updatedTrainee;
             manager.merge(traineeFromDB);
         }
-        return "{\"message\": \"Classroom sucessfully updated\"}";
+        return "{\"message\": \"Trainee sucessfully updated\"}";
     }
 
     @Override
