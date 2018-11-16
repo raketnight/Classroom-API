@@ -1,4 +1,13 @@
 package com.qa.presistance.repository;
 
-public class IClassroom {
+import com.qa.presistance.domain.Classroom;
+import com.qa.presistance.domain.Trainee;
+
+import java.util.List;
+
+public interface IClassroom {
+    List<Classroom> getAllClassrooms();
+    String createClassroom(String jsonString);
+    String updateClassroom(long id, String classroomToUpdate);
+    String deleteAccount(long id);
 }
