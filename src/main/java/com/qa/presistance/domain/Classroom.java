@@ -12,8 +12,8 @@ public class Classroom {
     private Long classroomId;
     @Column(length = 100)
     private String trainer;
-    @OneToMany(mappedBy = "classroom",fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    //@JoinColumn(name = "CLASSROOM_ID")
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "classroomId")
     private List<Trainee> traineeList;
 
     public Classroom(){}

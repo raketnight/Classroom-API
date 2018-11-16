@@ -10,10 +10,16 @@ public class Trainee {
     private Long traineeId;
     @Column(length = 100)
     private String traineeName;
+    @Column
+    private Long classroomId;
 
-    @ManyToOne
-    @JoinColumn(name = "classroomId", nullable = false)
-    private Classroom classroom;
+    public Long getClassroomId() {
+        return classroomId;
+    }
+
+    public void setClassroomId(Long classroomId) {
+        this.classroomId = classroomId;
+    }
 
     public Trainee(){}
 
@@ -33,3 +39,15 @@ public class Trainee {
         this.traineeName = traineeName;
     }
 }
+
+/*public Classroom getClassroom() { //might need it laters
+        return classroom;
+    }
+
+    public void setClassroom(Classroom classroom) {
+        this.classroom = classroom;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "classroomId", nullable = false)
+    private Classroom classroom;*/

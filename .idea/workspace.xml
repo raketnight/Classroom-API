@@ -7,19 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f66ef82-a605-4b34-a301-a8066412b3e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/introperability/Activator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/introperability/endPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/business/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/business/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/business/ServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/business/ServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Classroom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Trainee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Trainee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/IClassroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/IClassroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/classroomDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/classroomDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/application-ds.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-ds.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,16 +58,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1528" />
+          <entry key="java" value="1603" />
           <entry key="sql" value="216" />
-          <entry key="txt" value="86" />
+          <entry key="txt" value="160" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1528" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="JAVA" value="1603" />
+          <entry key="PLAIN_TEXT" value="161" />
           <entry key="SQL" value="216" />
           <entry key="XML" value="3" />
         </counts>
@@ -91,13 +81,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Trainee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="704">
+              <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/classroomDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
+            <state relative-caret-position="687">
               <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/introperability/endPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="1020">
               <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -177,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Classroom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <caret line="15" column="37" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
@@ -372,7 +374,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542377724496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542381022733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../accountapplication" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -411,7 +413,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542364380404</updated>
-      <workItem from="1542364383873" duration="13502000" />
+      <workItem from="1542364383873" duration="16627000" />
     </task>
     <task id="LOCAL-00001" summary="finished the domain from classroom">
       <created>1542367063702</created>
@@ -427,14 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542367500236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="crete trainee dosent work and is not letting create classroom work too">
+      <created>1542377919408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542377919408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13502000" />
+    <option name="totallyTimeSpent" value="16627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -481,7 +490,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished the domain from classroom" />
     <MESSAGE value="added into the business pacage" />
-    <option name="LAST_COMMIT_MESSAGE" value="added into the business pacage" />
+    <MESSAGE value="crete trainee dosent work and is not letting create classroom work too" />
+    <option name="LAST_COMMIT_MESSAGE" value="crete trainee dosent work and is not letting create classroom work too" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/ygy.java">
@@ -566,10 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/business/ServiceImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/classroomDb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state relative-caret-position="687">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -580,6 +590,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/business/ServiceImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -599,7 +619,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Classroom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="15" column="37" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
@@ -618,9 +638,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Trainee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/introperability/endPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="1020">
           <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -634,26 +676,6 @@
             <element signature="e#1649#1650#0" expanded="true" />
             <element signature="e#1704#1705#0" expanded="true" />
             <element signature="e#1752#1753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/repository/classroomDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/presistance/domain/Trainee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
