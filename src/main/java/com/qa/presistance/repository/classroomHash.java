@@ -6,6 +6,7 @@ import com.qa.util.JSONUtil;
 
 import javax.enterprise.inject.Alternative;
 import javax.inject.Inject;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -17,9 +18,10 @@ public class classroomHash implements IClassroom{
     @Inject
     JSONUtil json;
 
-    //@Override
-    public HashMap<String, Classroom> getAllClassrooms() {
-        return classroomHash;
+    @Override
+    public List<Classroom> getAllClassrooms() {
+        List<Classroom> list = new ArrayList<Classroom>(classroomHash.values());
+        return list;
     }
 
     @Override
@@ -47,7 +49,7 @@ public class classroomHash implements IClassroom{
         return "{\"message\": \"Classroom sucessfully deleted\"}";
     }
 
-    //@Override
+    @Override
     public List<Trainee> getAllTrainee() {
         return null;
     }
