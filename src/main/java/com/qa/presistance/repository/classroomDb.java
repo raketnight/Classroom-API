@@ -25,7 +25,7 @@ public class classroomDb implements IClassroom{
     @Inject
     private JSONUtil json;
 
-    @Override
+    //@Override
     public List<Classroom> getAllClassrooms() {
         TypedQuery<Classroom> query = manager.createQuery("SELECT c FROM Classroom c ORDER BY c.classroomId DESC", Classroom.class);
         return query.getResultList();
@@ -67,7 +67,7 @@ public class classroomDb implements IClassroom{
         return manager.find(Classroom.class, id);
     }
 
-    @Override
+    //@Override
     public List<Trainee> getAllTrainee() {
         TypedQuery<Trainee> query = manager.createQuery("SELECT t FROM Trainee t ORDER BY t.traineeId DESC", Trainee.class);
         return query.getResultList();
