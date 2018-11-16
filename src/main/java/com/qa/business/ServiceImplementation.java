@@ -1,6 +1,7 @@
 package com.qa.business;
 
 import com.qa.presistance.domain.Classroom;
+import com.qa.presistance.domain.Trainee;
 import com.qa.presistance.repository.IClassroom;
 
 import javax.inject.Inject;
@@ -29,5 +30,25 @@ public class ServiceImplementation implements IService{
     @Override
     public String deleteAccount(long id) {
         return iClassroom.deleteAccount(id);
+    }
+
+    @Override
+    public List<Trainee> getAllTrainee() {
+        return iClassroom.getAllTrainee();
+    }
+
+    @Override
+    public String createTrainee(String jsonString) {
+        return iClassroom.createTrainee(jsonString);
+    }
+
+    @Override
+    public String updateTrainee(long id, String classroomToUpdate) {
+        return iClassroom.updateTrainee(id, classroomToUpdate);
+    }
+
+    @Override
+    public String deleteTrainee(long id) {
+        return iClassroom.deleteTrainee(id);
     }
 }

@@ -1,17 +1,19 @@
 package com.qa.presistance.domain;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.List;
 
+@Entity
 public class Trainee {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long traineeId;
     @Column(length = 100)
     private String traineeName;
+
+    @ManyToOne
+    @JoinColumn(name = "classroomId", nullable = false)
+    private Classroom classroom;
 
     public Trainee(){}
 

@@ -1,6 +1,7 @@
 package com.qa.presistance.repository;
 
 import com.qa.presistance.domain.Classroom;
+import com.qa.presistance.domain.Trainee;
 import com.qa.util.JSONUtil;
 
 import javax.enterprise.inject.Default;
@@ -29,6 +30,8 @@ public class classroomDb implements IClassroom{
         TypedQuery<Classroom> query = manager.createQuery("SELECT c FROM Classroom c ORDER BY c.classroomId DESC", Classroom.class);
         return query.getResultList();
     }
+
+    //SELECT c FROM Classroom c JOIN Trainee t on c.classroomid = t.classroomid
 
     @Override
     @Transactional(REQUIRED)
@@ -62,5 +65,45 @@ public class classroomDb implements IClassroom{
 
     private Classroom findClassroom(Long id) {
         return manager.find(Classroom.class, id);
+    }
+
+    @Override
+    public List<Trainee> getAllTrainee() {
+        TypedQuery<Trainee> query = manager.createQuery("SELECT t FROM Trainee t ORDER BY t.traineeId DESC", Trainee.class);
+        return query.getResultList();
+    }
+
+    @Override
+    @Transactional(REQUIRED)
+    public String createTrainee(String jsonString) {
+        Trainee aTrainee = json.getObjectForJSON(jsonString, Trainee.class);
+        manager.persist(aTrainee);
+        return "{\"message\": \"Trainee has been sucessfully added\"}";
+    }
+
+    @Override
+    @Transactional(REQUIRED)
+    public String updateTrainee(long id, String traineeToUpdate) {
+        Trainee updatedTrainee = json.getObjectForJSON(traineeToUpdate, Trainee.class);
+        Trainee traineeFromDB = findTrainee(id);
+        if (traineeToUpdate!= null) {
+            traineeFromDB = updatedTrainee;
+            manager.merge(traineeFromDB);
+        }
+        return "{\"message\": \"Classroom sucessfully updated\"}";
+    }
+
+    @Override
+    @Transactional(REQUIRED)
+    public String deleteTrainee(long id) {
+        Trainee traineeInDB = findTrainee(id);
+        if (traineeInDB != null) {
+            manager.remove(traineeInDB);
+        }
+        return "{\"message\": \"account sucessfully deleted\"}";
+    }
+
+    private Trainee findTrainee(Long id) {
+        return manager.find(Trainee.class, id);
     }
 }

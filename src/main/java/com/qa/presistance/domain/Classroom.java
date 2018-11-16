@@ -8,10 +8,12 @@ public class Classroom {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
+    @Column(name = "CLASSROOM_ID")
     private Long classroomId;
     @Column(length = 100)
     private String trainer;
-    @Column(length = 50)
+    @OneToMany(mappedBy = "classroom",fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    //@JoinColumn(name = "CLASSROOM_ID")
     private List<Trainee> traineeList;
 
     public Classroom(){}
